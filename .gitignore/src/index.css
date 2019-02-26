@@ -1,0 +1,74 @@
+:root{
+  
+  --color-bg: #bccdd7; /* light blue */
+  --color-fg: #455f6c; /* dark blue */
+  --color-beige: #eadece; /*beige */
+  --color-brown: #5b4c49; /*brown*/
+  --color-orange: #d8782e; /*orange*/
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--color-bg);
+}
+
+.login-box{
+  margin-bottom: 4px;
+  background-color: var(--color-beige);
+  border: 0;
+  padding: 12px;
+  padding-right: 40px;
+  
+  border: 1px solid transparent;
+  border-radius: 15px;
+  color: var(--color-brown);
+  
+}
+.login-box:focus, .login-box:hover{
+  border: 1px solid var(--color-orange);
+  transition: 0.2s;
+}
+
+.login-button{
+  border: 0;
+  font-size: 16pt;
+  padding: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+
+  background-color: var(--color-orange);
+  color: var(--color-beige);
+  
+  border-radius: 15px;
+}
+
+.login-button:hover{
+  background-color: var(--color-brown);
+  transition: 0.2s;
+}
+
+.title{
+  font-size: 24pt;
+  margin-bottom: 60px;
+  margin-top: 80px;
+  color: var(--color-brown);
+}
+
+.pls-register{
+  
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.text-color-dark{
+  color: var(--color-brown);
+}
